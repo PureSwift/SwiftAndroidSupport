@@ -17,7 +17,7 @@ import Android
 final class SwiftBluetoothScannerActivityBinding_ListenerImpl: SwiftBluetoothScannerActivityBinding_ListenerBase {
     
     // one-off call to bind the Java and Swift sections of app
-    @_silgen_name("Java_com_jmarkstar_swiftandroid_MainActivity_bind")
+    @_silgen_name("Java_org_pureswift_swiftandroidsupport_sample_MainActivity_bind")
     public static func bind( __env: UnsafeMutablePointer<JNIEnv?>, __this: jobject?, __self: jobject? )-> jobject? {
         
         // This Swift instance forwards to Java through JNI
@@ -74,9 +74,9 @@ extension SwiftBluetoothScannerActivityBinding_ListenerImpl {
         
         let layoutInflater: Android.View.LayoutInflater
         
-        let cellResource = Android.R.Layout(name: "listview_cell", className: "com/jmarkstar/swiftandroid/R$layout")
+        let cellResource = Android.R.Layout(name: "listview_cell", className: "org/pureswift/swiftandroidsupport/sample/R$layout")
         
-        let textViewResource = Android.R.ID(name: "textView", className: "com/jmarkstar/swiftandroid/R$id")
+        let textViewResource = Android.R.ID(name: "textView", className: "org/pureswift/swiftandroidsupport/sample/R$id")
         
         init(layoutInflater: Android.View.LayoutInflater) {
             
