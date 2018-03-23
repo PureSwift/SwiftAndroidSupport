@@ -5,12 +5,10 @@ buildscript {
     repositories {
         maven { url 'https://maven.google.com' }
         jcenter()
-        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'net.zhuoweizhang:swiftandroid:1.0.0'
     }
 }
 
