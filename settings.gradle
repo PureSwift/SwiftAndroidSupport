@@ -1,1 +1,1 @@
-include ':sample', ':swiftandroidsupport'
+include ':swiftandroidsupport'

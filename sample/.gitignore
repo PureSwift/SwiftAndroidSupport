@@ -1,6 +1,0 @@
-/build
-sample.iml
-proguard-rules.pro
-.gitignore
-/src/main/swift/.build
-/src/main/jniLibs
