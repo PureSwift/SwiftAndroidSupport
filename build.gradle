@@ -19,7 +19,6 @@ allprojects {
         maven { url 'https://maven.google.com' }
         jcenter()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -31,7 +30,7 @@ ext.versions = [
         minSdk            : 21,
         compileSdk        : 27,
         buildTools        : '27.0.2',
-        publishVersion    : '1.0.0',
-        publishVersionCode: 1,
+        publishVersion    : '0.1.9',
+        publishVersionCode: 2,
         supportLib        : '27.0.2'
 ]
