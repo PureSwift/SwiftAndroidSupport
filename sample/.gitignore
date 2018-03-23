@@ -2,3 +2,4 @@
 sample.iml
 proguard-rules.pro
 .gitignore
+/src/main/swift/.build

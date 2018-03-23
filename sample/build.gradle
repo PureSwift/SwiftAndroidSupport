@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'net.zhuoweizhang.swiftandroid'
 
 android {
     compileSdkVersion versions.compileSdk
@@ -24,7 +25,8 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    implementation 'com.android.support:appcompat-v7:'+versions.supportLib
+    implementation 'com.android.support:appcompat-v7:' + versions.supportLib
+    implementation project(':swiftandroidsupport')
 }
