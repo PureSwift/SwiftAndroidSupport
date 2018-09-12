@@ -30,10 +30,11 @@ class SwiftRecyclerViewAdapter(private val __swiftObject: Long): RecyclerView.Ad
     }
 /*
     override fun onBindViewHolder(holder: SwiftRecyclerViewViewHolder, position: Int, payloads: MutableList<Any>) {
+        super.onBindViewHolder(holder, position, payloads)
         Log.e("Swift","onBindViewHolderWithPayload()")
         __onBindViewHolderPayload(__swiftObject, holder.__swiftObject, position, payloads)
-    }
-*/
+    }*/
+
     fun finalize() {
         Log.e("Swift","finalize()")
         __finalize(__swiftObject)
