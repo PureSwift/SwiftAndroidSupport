@@ -136,6 +136,15 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
         return id > 0 && resources.getBoolean(id)
     }
 
+    fun readJsonResource(jsonName: String): String? {
+
+        val resourcesId = getIdentifier(jsonName,"raw")
+
+        if(resourcesId <= 0) return null
+
+        return resources.openRawResource(resourcesId).bufferedReader().use { it.readText() }
+    }
+
     fun getStatusBarHeightPixels(): Int {
         var statusBarHeight = 0
         val resourceId = resources.getIdentifier("status_bar_height", "dimen", "android")
