@@ -77,6 +77,11 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
         onRequestPermissionsResultNative(__swiftObject, requestCode, permissions, grantResults)
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        onBackPressed(__swiftObject)
+    }
+
     fun finalize() {
         finalizeNative(__swiftObject)
     }
@@ -188,6 +193,8 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
     private external fun onActivityResultNative(__swiftObject: Long, requestCode: Int, resultCode: Int, data: Intent?)
 
     private external fun onRequestPermissionsResultNative(__swiftObject: Long, requestCode: Int, permissions: Array<out String>, grantResults: IntArray)
+
+    private external fun onBackPressed(__swiftObject: Long)
 
     private external fun finalizeNative(__swiftObject: Long)
 
