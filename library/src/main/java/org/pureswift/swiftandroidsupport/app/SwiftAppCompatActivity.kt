@@ -78,7 +78,6 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        super.onBackPressed()
         onBackPressed(__swiftObject)
     }
 
