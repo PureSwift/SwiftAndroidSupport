@@ -149,6 +149,7 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
         return resources.openRawResource(resourcesId).bufferedReader().use { it.readText() }
     }
 
+    //navigationBarBackground
     fun getStatusBarHeightPixels(): Int {
         var statusBarHeight = 0
         val resourceId = resources.getIdentifier("status_bar_height", "dimen", "android")
