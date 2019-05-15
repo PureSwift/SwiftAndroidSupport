@@ -1,5 +1,6 @@
 package org.pureswift.swiftandroidsupport.view.animation
 
+import android.util.Log
 import android.view.animation.Animation
 
 /** An animation listener receives notifications from an animation.
@@ -19,7 +20,13 @@ open class SwiftAnimationListener(private val __swiftObject: Long): Animation.An
         onAnimationStart(__swiftObject, animation)
     }
 
+    fun finalize() {
+        Log.e("Swift","finalize()")
+        __finalize(__swiftObject)
+    }
+
     private external fun __onAnimationRepeat(__swiftObject: Long, animation: Animation?)
     private external fun onAnimationEnd(__swiftObject: Long, animation: Animation?)
     private external fun onAnimationStart(__swiftObject: Long, animation: Animation?)
+    private external fun __finalize(__swiftObject: Long)
 }

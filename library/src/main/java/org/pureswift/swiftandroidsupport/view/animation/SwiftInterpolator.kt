@@ -1,5 +1,6 @@
 package org.pureswift.swiftandroidsupport.view.animation
 
+import android.util.Log
 import android.view.animation.Interpolator
 
 /**
@@ -12,5 +13,11 @@ open class SwiftInterpolator(private val __swiftObject: Long): Interpolator {
         return __getInterpolation(__swiftObject, input)
     }
 
+    fun finalize() {
+        Log.e("Swift","finalize()")
+        __finalize(__swiftObject)
+    }
+
     private external fun __getInterpolation(__swiftObject: Long, input: Float): Float
+    private external fun __finalize(__swiftObject: Long)
 }
