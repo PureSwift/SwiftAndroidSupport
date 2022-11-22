@@ -1,5 +1,5 @@
 package org.pureswift.swiftandroidsupport.widget
-
+/*
 import android.support.design.widget.TabLayout
 
 class TabLayoutOnPageChangeListener(private val __swiftObject: Long, tabLayout: TabLayout): TabLayout.TabLayoutOnPageChangeListener(tabLayout) {
@@ -32,3 +32,4 @@ class TabLayoutOnPageChangeListener(private val __swiftObject: Long, tabLayout: 
     private external fun __onPageScrolled(__swiftObject: Long, position: Int, positionOffset: Float, positionOffsetPixels: Int)
     private external fun __onPageSelected(__swiftObject: Long, position: Int)
 }
+ */

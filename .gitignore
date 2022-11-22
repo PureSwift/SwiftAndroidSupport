@@ -7,3 +7,5 @@ gradlew
 gradlew.bat
 local.properties
 libs/
+
+*.DS_Store

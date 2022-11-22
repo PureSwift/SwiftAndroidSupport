@@ -1,5 +1,5 @@
 package org.pureswift.swiftandroidsupport.widget
-
+/*
 import android.support.design.widget.TabLayout
 
 class TabLayoutOnTabSelectedListener(private val __swiftObject: Long): TabLayout.OnTabSelectedListener {
@@ -25,4 +25,4 @@ class TabLayoutOnTabSelectedListener(private val __swiftObject: Long): TabLayout
     private external fun __onTabReselected(__swiftObject: Long, tab: TabLayout.Tab?)
     private external fun __onTabUnselected(__swiftObject: Long, tab: TabLayout.Tab?)
     private external fun __onTabSelected(__swiftObject: Long, tab: TabLayout.Tab?)
-}
+}*/

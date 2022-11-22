@@ -1,6 +1,6 @@
 package org.pureswift.swiftandroidsupport.recyclerview
 
-import android.support.v7.widget.RecyclerView.ViewHolder
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import android.util.Log
 import android.view.View
 

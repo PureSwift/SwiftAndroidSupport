@@ -3,7 +3,7 @@ package org.pureswift.swiftandroidsupport.bluetooth.le
 import android.bluetooth.le.AdvertisingSet
 import android.bluetooth.le.AdvertisingSetCallback
 import android.os.Build
-import android.support.annotation.RequiresApi
+import androidx.annotation.RequiresApi
 
 @SuppressWarnings("JniMissingFunction")
 @RequiresApi(Build.VERSION_CODES.O)

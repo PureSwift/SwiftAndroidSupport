@@ -1,6 +1,6 @@
 package org.pureswift.swiftandroidsupport.view
 
-import android.support.v7.widget.Toolbar
+import androidx.appcompat.widget.Toolbar
 import android.view.MenuItem
 
 class SwiftOnMenuItemClickListener(private val __swiftObject: Long): Toolbar.OnMenuItemClickListener {

@@ -8,7 +8,7 @@ open class SwiftApplication: Application() {
 
     private var __swiftObject: Long = 0L
 
-    override fun onConfigurationChanged(newConfig: Configuration?) {
+    override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
 
         onConfigurationChangedNative(__swiftObject, newConfig)

@@ -1,5 +1,5 @@
 package org.pureswift.swiftandroidsupport.widget
-
+/*
 import android.support.design.widget.BottomNavigationView
 import android.view.MenuItem
 
@@ -17,4 +17,4 @@ class BottomNavigationViewOnNavigationItemSelectedListener(private val __swiftOb
 
     private external fun __onNavigationItemSelected(__swiftObject: Long, item: MenuItem): Boolean
 
-}
+}*/

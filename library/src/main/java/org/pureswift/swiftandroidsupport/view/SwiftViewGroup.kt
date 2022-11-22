@@ -200,7 +200,7 @@ class SwiftViewGroup(context: Context): android.view.ViewGroup(context) {
         super.setAlwaysDrawnWithCacheEnabled(always)
     }
 
-    override fun dispatchProvideAutofillStructure(structure: ViewStructure?, flags: Int) {
+    override fun dispatchProvideAutofillStructure(structure: ViewStructure, flags: Int) {
         super.dispatchProvideAutofillStructure(structure, flags)
     }
 
@@ -356,7 +356,7 @@ class SwiftViewGroup(context: Context): android.view.ViewGroup(context) {
         return super.isAlwaysDrawnWithCacheEnabled()
     }
 
-    override fun addKeyboardNavigationClusters(views: MutableCollection<View>?, direction: Int) {
+    override fun addKeyboardNavigationClusters(views: MutableCollection<View>, direction: Int) {
         super.addKeyboardNavigationClusters(views, direction)
     }
 
@@ -368,7 +368,7 @@ class SwiftViewGroup(context: Context): android.view.ViewGroup(context) {
         super.dispatchWindowFocusChanged(hasFocus)
     }
 
-    override fun onDescendantInvalidated(child: View?, target: View?) {
+    override fun onDescendantInvalidated(child: View, target: View) {
         super.onDescendantInvalidated(child, target)
     }
 
@@ -392,7 +392,7 @@ class SwiftViewGroup(context: Context): android.view.ViewGroup(context) {
         return super.dispatchApplyWindowInsets(insets)
     }
 
-    override fun notifySubtreeAccessibilityStateChanged(child: View?, source: View?, changeType: Int) {
+    override fun notifySubtreeAccessibilityStateChanged(child: View, source: View, changeType: Int) {
         super.notifySubtreeAccessibilityStateChanged(child, source, changeType)
     }
 

@@ -1,5 +1,5 @@
 package org.pureswift.swiftandroidsupport.widget
-
+/*
 import android.support.design.widget.TabLayout
 import android.support.v4.view.ViewPager
 
@@ -29,4 +29,4 @@ class TabLayoutViewPagerOnTabSelectedListener(private val __swiftObject: Long, v
     private external fun __onTabReselected(__swiftObject: Long, tab: TabLayout.Tab?)
     private external fun __onTabSelected(__swiftObject: Long, tab: TabLayout.Tab?)
     private external fun __onTabUnselected(__swiftObject: Long, tab: TabLayout.Tab?)
-}
+}*/
