@@ -5,12 +5,10 @@ import android.util.Log
 class SwiftRunnable(internal val __swiftObject: Long): Runnable {
 
     override fun run() {
-        Log.e("Swift","run()")
         __run(__swiftObject)
     }
 
     fun finalize() {
-        Log.e("Swift","finalize()")
         __finalize(__swiftObject)
     }
 
